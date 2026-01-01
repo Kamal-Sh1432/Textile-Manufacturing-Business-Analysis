@@ -1,1 +1,14 @@
-hiiiifgujftgufg
+## Business Problem Statement
+
+The textile manufacturing company has been experiencing operational inefficiencies despite stable demand and established production capabilities.
+
+Senior management observed that production targets were frequently not being met, quality-related losses were increasing, and dispatch commitments were often delayed. At the same time, inventory levels appeared higher than expected, leading to concerns around working capital utilization.
+
+While multiple operational reports existed, management lacked a consolidated and reliable view that could clearly explain:
+- Where performance gaps were occurring
+- Why these gaps were happening
+- Which issues required immediate attention
+
+The absence of clearly defined, decision-oriented KPIs made it difficult for management to identify root causes and prioritize corrective actions.
+
+This engagement was initiated to analyze operational data, validate performance metrics, and provide management with actionable insights to improve efficiency, reduce losses, and support informed decision-making.
