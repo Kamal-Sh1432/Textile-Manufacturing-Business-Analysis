@@ -1,164 +1,230 @@
 # Textile Manufacturing Business Analytics – End-to-End Case Study
-
 ## Engagement Overview
-This repository documents a business analytics engagement where I was approached by a textile manufacturing company to help them understand and address ongoing operational inefficiencies.
 
-The objective of the engagement was not limited to dashboard creation. It involved understanding management concerns, validating operational data, defining decision-oriented KPIs, and presenting insights along with practical recommendations that could be acted upon by senior leadership.
+This repository documents a structured business analytics engagement initiated by a textile manufacturing company seeking clarity on persistent operational inefficiencies affecting overall performance.
 
----
+The scope of this engagement extended well beyond dashboard development. It involved understanding executive concerns, validating operational data integrity, defining decision-oriented KPIs aligned with business strategy, and translating analytical findings into practical, measurable recommendations for senior leadership.
+
+The objective was not reporting — it was enabling informed decision-making.
 
 ## How the Engagement Started
-The Managing Director of the company reached out with concerns that, despite steady demand, operational performance was not improving as expected. During initial discussions, the following issues were highlighted:
 
-- Production targets were frequently being missed
-- Rework and wastage levels were increasing
-- Dispatch delays were affecting customer commitments
-- Inventory levels appeared high without clear visibility into causes
+The Managing Director approached me with concerns that, despite steady market demand, operational outcomes were not improving proportionately. Revenue remained stable, but performance inefficiencies were quietly impacting margins, timelines, and working capital.
 
-I was requested to analyze these concerns using data and provide management with a clear, fact-based view of what was happening across operations.
+During initial discussions, the following key issues were highlighted:
 
----
+Production targets were frequently being missed
 
-## Engagement Objective
-The primary objective was to support management decision-making by:
+Rework and wastage levels were increasing
 
-- Providing clarity on production, quality, dispatch, and inventory performance
-- Identifying root causes rather than surface-level symptoms
-- Ensuring KPIs were meaningful, accurate, and aligned with business reality
-- Converting analysis into actionable recommendations
+Dispatch delays were affecting customer commitments
 
----
+Inventory levels appeared high without clear visibility into underlying causes
 
-## My Approach to the Problem
-I approached this engagement the same way I would handle a real consulting assignment — by following a structured and disciplined process rather than jumping straight into visualizations.
+Management required a structured, fact-based assessment to determine whether these were isolated incidents or systemic inefficiencies embedded within operations.
 
----
+I was engaged to analyze these concerns using validated data and provide leadership with a clear, decision-ready view of performance drivers and risks.
 
-## Step 1: Understanding Management Expectations
-Before working with data, I focused on understanding what management actually wanted answers to. The discussions were centered around business questions such as:
+Engagement Objective
 
-- Are production plans realistic given current capacity?
-- Where exactly are we losing material and margin?
-- Are dispatch delays occasional or systemic?
-- Is inventory being held efficiently or locking working capital?
+The primary objective of the engagement was to support executive decision-making by:
 
-These conversations helped shape the scope and the KPIs used in the analysis.
+Providing structured visibility into production, quality, dispatch, and inventory performance
 
----
+Identifying root causes rather than surface-level operational symptoms
 
-## Step 2: KPI Definition with Business Context
-Based on management priorities, I defined KPIs that directly support decision-making, including:
+Ensuring KPI definitions reflected true business logic and operational realities
 
-- Production Achievement %
-- Rework and Wastage %
-- Dispatch Delay indicators
-- Inventory Holding Days
-- Machine downtime concentration
+Quantifying operational inefficiencies in terms of business and financial impact
 
-Special attention was given to KPI logic. For example, **Inventory Holding Days** was calculated at daily granularity and then averaged, to avoid misleading values caused by cumulative aggregation — a common issue in many operational dashboards.
+Converting insights into prioritized, actionable recommendations
 
----
+The engagement was designed to shift analytics from reporting to strategic enablement.
 
-## Step 3: Data Validation Using SQL
-Before proceeding with analysis, I validated the data using SQL to ensure reliability. This included:
+My Approach to the Problem
 
-- Master data consistency checks
-- Planned vs actual production validation
-- Rework and wastage logic checks
-- Dispatch and maintenance data verification
-- Cost data completeness and consistency checks
+I approached this assignment using a structured consulting methodology, ensuring clarity, validation, and alignment before progressing to visualization.
 
-This step ensured that management insights were based on trustworthy data.
+Step 1: Understanding Management Expectations
 
----
+Before engaging with data, I focused on aligning with leadership on the core business questions driving concern. The emphasis was on clarity of decision-making rather than metric generation.
 
-## Step 4: Data Modeling in Power BI
-After validation, I designed a clean Power BI data model with:
+Key discussion points included:
 
-- A centralized date dimension
-- Clear one-to-many relationships
-- Proper separation of fact and dimension tables
+Are current production plans aligned with actual plant capacity?
 
-This modeling approach ensured correct aggregations and reliable time-based analysis.
+Where exactly are we losing material, time, and margin?
 
----
+Are dispatch delays operational anomalies or systemic bottlenecks?
 
-## Step 5: KPI Implementation Using DAX
-All KPIs were implemented using DAX with a strong emphasis on:
+Is inventory being managed efficiently, or is it locking working capital unnecessarily?
 
-- Correct evaluation context
-- Avoiding misleading averages
-- Ensuring measures responded correctly to filters
-- Refining logic where values did not align with business expectations
+These conversations defined analytical priorities and ensured that every KPI would directly support an executive decision.
 
-Where KPIs produced unexpected results, the logic was revisited and corrected rather than accepted at face value.
+Step 2: KPI Definition with Business Context
 
----
+Based on management priorities, KPIs were carefully defined to reflect operational reality and financial implications. These included:
 
-## Step 6: Management Dashboards
-Two dashboards were delivered as part of the engagement:
+Production Achievement %
 
-### 1. MD Performance Dashboard
-A one-page executive dashboard providing a consolidated view of:
-- Production performance
-- Quality losses (rework and wastage)
-- Dispatch performance
-- Inventory holding behavior
+Rework and Wastage %
 
-This dashboard is designed for quick interpretation and decision-making by senior management.
+Dispatch Delay Indicators
 
-### 2. Observations & Recommended Actions Dashboard
-A consultant-style dashboard that connects:
-- Key business observations
-- Supporting data evidence
-- Practical corrective actions
-- Expected business impact
+Inventory Holding Days
 
-This helped move discussions from “what is happening” to “what should be done”.
+Machine Downtime Concentration
 
----
+Special attention was given to KPI logic to prevent misleading interpretations.
 
-## Key Insights Delivered
-Some of the key insights shared with management included:
+For example, Inventory Holding Days was calculated at daily granularity and then averaged across the selected period. This approach avoided distortion caused by cumulative aggregation — a common issue in operational dashboards that often leads to inaccurate working capital assessments.
 
-- Production gaps driven by planning vs capacity mismatch
-- Rework and wastage concentrated in specific processes
-- Dispatch delays being systemic rather than isolated
-- Inventory holding days requiring tighter control
-- A small set of machines contributing disproportionately to downtime
+Each KPI was designed not only to measure performance but to signal decision triggers.
 
----
+Step 3: Data Validation Using SQL
 
-## Business Value
+Prior to analysis, data reliability was rigorously validated using SQL to ensure management decisions would be based on trustworthy information.
+
+Validation included:
+
+Master data consistency checks
+
+Planned vs. actual production reconciliation
+
+Rework and wastage logic verification
+
+Dispatch timeline integrity checks
+
+Maintenance data consistency validation
+
+Cost data completeness and anomaly detection
+
+This step reduced analytical risk and ensured that insights were grounded in validated operational reality rather than raw extracts.
+
+Step 4: Data Modeling in Power BI
+
+Following validation, a clean and scalable Power BI data model was designed with:
+
+A centralized date dimension
+
+Clear one-to-many table relationships
+
+Structured separation of fact and dimension tables
+
+Controlled filter propagation
+
+This modeling ensured accurate aggregation, reliable time-based analysis, and consistent KPI behavior across filters and views.
+
+Step 5: KPI Implementation Using DAX
+
+All KPIs were implemented using DAX with strong emphasis on:
+
+Correct evaluation context
+
+Avoiding misleading averages
+
+Ensuring responsiveness to slicers and filters
+
+Cross-validating outputs with source data
+
+Where KPI outputs did not align with operational expectations, logic was revisited and refined rather than accepted at face value.
+
+This iterative validation ensured credibility with leadership and strengthened trust in the analytics framework.
+
+Step 6: Management Dashboards
+
+Two executive-level dashboards were delivered as part of the engagement.
+
+1. MD Performance Dashboard
+
+A one-page consolidated dashboard providing:
+
+Production performance vs. targets
+
+Quality losses through rework and wastage
+
+Dispatch reliability trends
+
+Inventory holding behavior and working capital signals
+
+The design focused on clarity, minimalism, and executive usability — enabling rapid interpretation during review meetings.
+
+2. Observations & Recommended Actions Dashboard
+
+This consultant-style dashboard connected:
+
+Key business observations
+
+Supporting data evidence
+
+Root cause interpretation
+
+Prioritized corrective actions
+
+Expected operational and financial impact
+
+This shifted management discussions from “What is happening?” to “What must be done next?”
+
+Key Insights Delivered
+
+The analysis identified several systemic inefficiencies:
+
+Production shortfalls driven by planning-capacity mismatches
+
+Rework and wastage concentrated in specific production stages
+
+Dispatch delays reflecting process-level bottlenecks rather than isolated incidents
+
+Elevated inventory holding days indicating working capital inefficiency
+
+A small subset of machines contributing disproportionately to downtime
+
+Financial modeling indicated that addressing these inefficiencies could potentially unlock measurable improvements in throughput, cost control, and working capital utilization.
+
+Business Value
+
 The engagement enabled management to:
 
-- Gain a clear, data-backed view of operational issues
-- Focus on root causes instead of symptoms
-- Prioritize corrective actions with measurable impact
-- Use analytics as a decision-support tool rather than a reporting exercise
+Gain a structured, data-backed view of operational performance
 
----
+Identify root causes rather than reacting to symptoms
 
-## Tools & Technologies Used
-- **MySQL** – Data storage and validation  
-- **SQL** – Data quality and logic checks  
-- **Power BI** – Data modeling, DAX, dashboards  
-- **GitHub** – Documentation and project structuring  
+Prioritize corrective actions based on measurable impact
 
----
+Quantify risk exposure from operational inefficiencies
 
-## Repository Structure
-The repository is organized to reflect a real consulting engagement:
-- Business context and objectives
-- Requirements and KPI definitions
-- Data understanding and validation
-- Power BI model and measures
-- Dashboards, insights, and recommendations
-- Executive-level summaries
+Use analytics as a strategic decision-support system rather than a reporting mechanism
 
----
+This shifted analytics from descriptive reporting to actionable performance management.
 
-## Disclaimer
-This case study is shared for portfolio and skill demonstration purposes only.  
+Tools & Technologies Used
+
+MySQL – Data storage and validation
+
+SQL – Data quality checks and reconciliation
+
+Power BI – Data modeling, DAX, and executive dashboards
+
+GitHub – Documentation and structured project presentation
+
+Repository Structure
+
+The repository is organized to reflect a structured consulting engagement:
+
+Business context and objectives
+
+Requirements and KPI definitions
+
+Data understanding and validation
+
+Power BI model architecture and measures
+
+Dashboards, insights, and recommendations
+
+Executive-level summaries
+
+Disclaimer
+
+This case study is shared strictly for portfolio and skill demonstration purposes.
 The content is not intended for reuse or application in any business or commercial context without prior approval.
 
