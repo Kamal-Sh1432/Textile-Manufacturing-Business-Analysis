@@ -25,7 +25,7 @@ Management required a structured, fact-based assessment to determine whether the
 
 I was engaged to analyze these concerns using validated data and provide leadership with a clear, decision-ready view of performance drivers and risks.
 
-Engagement Objective
+## Engagement Objective
 
 The primary objective of the engagement was to support executive decision-making by:
 
@@ -41,15 +41,15 @@ Converting insights into prioritized, actionable recommendations
 
 The engagement was designed to shift analytics from reporting to strategic enablement.
 
-My Approach to the Problem
+## My Approach to the Problem
 
 I approached this assignment using a structured consulting methodology, ensuring clarity, validation, and alignment before progressing to visualization.
 
-Step 1: Understanding Management Expectations
+## Step 1: Understanding Management Expectations
 
 Before engaging with data, I focused on aligning with leadership on the core business questions driving concern. The emphasis was on clarity of decision-making rather than metric generation.
 
-Key discussion points included:
+### Key discussion points included:
 
 Are current production plans aligned with actual plant capacity?
 
@@ -61,7 +61,7 @@ Is inventory being managed efficiently, or is it locking working capital unneces
 
 These conversations defined analytical priorities and ensured that every KPI would directly support an executive decision.
 
-Step 2: KPI Definition with Business Context
+## Step 2: KPI Definition with Business Context
 
 Based on management priorities, KPIs were carefully defined to reflect operational reality and financial implications. These included:
 
@@ -81,7 +81,7 @@ For example, Inventory Holding Days was calculated at daily granularity and then
 
 Each KPI was designed not only to measure performance but to signal decision triggers.
 
-Step 3: Data Validation Using SQL
+## Step 3: Data Validation Using SQL
 
 Prior to analysis, data reliability was rigorously validated using SQL to ensure management decisions would be based on trustworthy information.
 
@@ -101,7 +101,7 @@ Cost data completeness and anomaly detection
 
 This step reduced analytical risk and ensured that insights were grounded in validated operational reality rather than raw extracts.
 
-Step 4: Data Modeling in Power BI
+## Step 4: Data Modeling in Power BI
 
 Following validation, a clean and scalable Power BI data model was designed with:
 
@@ -115,7 +115,7 @@ Controlled filter propagation
 
 This modeling ensured accurate aggregation, reliable time-based analysis, and consistent KPI behavior across filters and views.
 
-Step 5: KPI Implementation Using DAX
+## Step 5: KPI Implementation Using DAX
 
 All KPIs were implemented using DAX with strong emphasis on:
 
@@ -131,11 +131,11 @@ Where KPI outputs did not align with operational expectations, logic was revisit
 
 This iterative validation ensured credibility with leadership and strengthened trust in the analytics framework.
 
-Step 6: Management Dashboards
+## Step 6: Management Dashboards
 
 Two executive-level dashboards were delivered as part of the engagement.
 
-1. MD Performance Dashboard
+### 1. MD Performance Dashboard
 
 A one-page consolidated dashboard providing:
 
@@ -149,7 +149,7 @@ Inventory holding behavior and working capital signals
 
 The design focused on clarity, minimalism, and executive usability — enabling rapid interpretation during review meetings.
 
-2. Observations & Recommended Actions Dashboard
+### 2. Observations & Recommended Actions Dashboard
 
 This consultant-style dashboard connected:
 
@@ -165,7 +165,7 @@ Expected operational and financial impact
 
 This shifted management discussions from “What is happening?” to “What must be done next?”
 
-Key Insights Delivered
+## Key Insights Delivered
 
 The analysis identified several systemic inefficiencies:
 
@@ -181,7 +181,7 @@ A small subset of machines contributing disproportionately to downtime
 
 Financial modeling indicated that addressing these inefficiencies could potentially unlock measurable improvements in throughput, cost control, and working capital utilization.
 
-Business Value
+## Business Value
 
 The engagement enabled management to:
 
@@ -197,7 +197,7 @@ Use analytics as a strategic decision-support system rather than a reporting mec
 
 This shifted analytics from descriptive reporting to actionable performance management.
 
-Tools & Technologies Used
+## Tools & Technologies Used
 
 MySQL – Data storage and validation
 
@@ -207,7 +207,7 @@ Power BI – Data modeling, DAX, and executive dashboards
 
 GitHub – Documentation and structured project presentation
 
-Repository Structure
+## Repository Structure
 
 The repository is organized to reflect a structured consulting engagement:
 
@@ -223,7 +223,7 @@ Dashboards, insights, and recommendations
 
 Executive-level summaries
 
-Disclaimer
+## Disclaimer
 
 This case study is shared strictly for portfolio and skill demonstration purposes.
 The content is not intended for reuse or application in any business or commercial context without prior approval.
